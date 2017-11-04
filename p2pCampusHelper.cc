@@ -38,7 +38,7 @@ PointToPointCampusHelper::PointToPointCampusHelper(uint32_t maxInner, uint32_t m
 	bool nTypeInner;
 	bool createInner;	
 	bool createOuter;
-	int innerNodesNum = 0;	
+	int innerNodesNum = 1;
 	bool innerExistsOrNot [8];
 
 	InternetStackHelper stack;	

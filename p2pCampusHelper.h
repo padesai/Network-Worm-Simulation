@@ -17,7 +17,7 @@ using namespace ns3;
 class PointToPointCampusHelper {
 public:
 
-	PointToPointCampusHelper(uint32_t maxInner, uint32_t maxOuter, PointToPointHelper inner, PointToPointHelper outer, Ptr<UniformRandomVariable> rnd, int ipIncrement);
+	PointToPointCampusHelper(uint32_t maxInner, uint32_t maxOuter, PointToPointHelper inner, PointToPointHelper outer, Ptr<UniformRandomVariable> rnd, int ipIncremen);
 
 	~PointToPointCampusHelper();
 
